@@ -1,0 +1,37 @@
+{
+  "name": "activity-project-template",
+  "scripts": {
+    "dev": "parcel src/pages/index.html src/pages/**/index.html",
+    "build": "parcel build src/pages/index.html src/pages/**/index.html",
+    "new-page": "node scripts/new_page/index.js",
+    "archive": "node scripts/archive.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mebtte/activity-project-template.git"
+  },
+  "author": {
+    "email": "hi@mebtte.com",
+    "name": "mebtte",
+    "url": "https://mebtte.com"
+  },
+  "bugs": {
+    "url": "https://github.com/mebtte/activity-project-template/issues"
+  },
+  "homepage": "https://github.com/mebtte/activity-project-template#readme",
+  "devDependencies": {
+    "@parcel/config-default": "^2.7.0",
+    "@parcel/core": "^2.7.0",
+    "@parcel/transformer-vue": "^2.7.0",
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
+    "inquirer": "^9.1.4",
+    "parcel": "^2.7.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "parcel-reporter-static-files-copy": "^1.4.0",
+    "process": "^0.11.10",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "vue": "^3.2.41"
+  }
+}
